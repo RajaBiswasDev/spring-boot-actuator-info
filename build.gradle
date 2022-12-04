@@ -13,10 +13,6 @@ repositories {
 	mavenCentral()
 }
 
-gitProperties {
-	dotGitDirectory = "${project.rootDir}/../build/resources/main"
-}
-
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
